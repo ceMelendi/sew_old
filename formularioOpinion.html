@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Grace Murray Hopper: opinión</title>
+    <link rel="stylesheet" type="text/css" href="/estilos/estilo.css" />
+    <meta name="autor" content="Celia Melendi"/>
+    <meta name="description" content="Información sobre Grace Murray Hoppper y aportaciones que ha realizado dentro de la informática"/>
+    <meta name="keywords" content="Grace Murray Hoppper, computación, programación"/>
+    <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+</head>
+
+<body>
+    <h1>Opinión sobre Grace Murray Hopper</h1>
+    <p>Nos interesa tu opinión.</p>
+    <p>Rellena este formulario sobre el personaje y la información que te has encontrado en nuestra página.</p>
+   <form name="Opinión">
+       <p><label>Nombre completo: <input type ="text"></label></p>
+       <p><label>Edad: <input type="number" min=0></label></p>
+       <fieldset>
+           <legend>¿Conocías ya a Grace Murray Hopper?</legend>
+           <input id="no" type="radio" checked>
+           <label for="no">No</label><br>
+           <input id="escuchado" type="radio">
+           <label for="escuchado">Había escuchado su nombre</label><br>
+           <input id="si" type="radio">
+           <label for="si">Sí</label>
+       </fieldset>
+       <fieldset>
+           <legend>¿Qué aportaciones te parecen más importantes?</legend>
+           <input id="bug" type="checkbox" value="bug">
+           <label for="bug">Acuñar los términos "bug" y "debugging"</label><br>
+           <input id="compilador" type="checkbox" value="compilador">
+           <label for="compilador">Creación del primer lenguaje de compilación</label><br>
+           <input id="programación" type="checkbox" value="programación">
+           <label for="programación">Colaboración en la programación de los primeros ordenadores electromecánicos</label>
+       </fieldset>
+       <label for="mail">E-mail para recibir información (opcional)</label>
+       <input id="mail" type="email"><br>
+       <input type="submit" value="Mandar formulario">
+   </form>
+</body>
+</html>
