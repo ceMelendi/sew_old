@@ -17,8 +17,10 @@
     <p>Nos interesa tu opinión.</p>
     <p>Rellena este formulario sobre el personaje y la información que te has encontrado en nuestra página.</p>
    <form name="Opinión">
-       <p><label>Nombre completo: <input type ="text"></label></p>
-       <p><label>Edad: <input type="number" min=0></label></p>
+       <label for="name">Nombre completo:</label>
+       <input id="name" type ="text"><br>
+       <label for="age">Edad:</label>
+       <input id="age" type ="number" min=0>
        <fieldset>
            <legend>¿Conocías ya a Grace Murray Hopper?</legend>
            <input id="no" type="radio" checked>
@@ -30,11 +32,11 @@
        </fieldset>
        <fieldset>
            <legend>¿Qué aportaciones te parecen más importantes?</legend>
-           <input id="bug" type="checkbox" value="bug">
+           <input id="bug" type="checkbox">
            <label for="bug">Acuñar los términos "bug" y "debugging"</label><br>
-           <input id="compilador" type="checkbox" value="compilador">
+           <input id="compilador" type="checkbox">
            <label for="compilador">Creación del primer lenguaje de compilación</label><br>
-           <input id="programación" type="checkbox" value="programación">
+           <input id="programación" type="checkbox">
            <label for="programación">Colaboración en la programación de los primeros ordenadores electromecánicos</label>
        </fieldset>
        <label for="mail">E-mail para recibir información (opcional)</label>
