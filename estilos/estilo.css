@@ -1,0 +1,13 @@
+/*Especificidad: 001*/
+body {
+    font-family: Tahoma, sans-serif;
+    color: black;
+    background-color: #fff;
+    font-size: 1em;
+    }
+
+/*Especificidad (0,0,1)*/
+h1 {
+    background-color: #04388B;
+    color: #fff;
+}
