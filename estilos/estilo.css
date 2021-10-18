@@ -1,13 +1,62 @@
-/*Especificidad: 001*/
+/*Especificidad (0,0,1)*/
 body {
-    font-family: Tahoma, sans-serif;
-    color: black;
-    background-color: #fff;
-    font-size: 1em;
-    }
+    background-color: #B0B6DE;
+    color: #372601;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "menu section"
+    "footer footer";
+    grid-template-columns: 1fr 5fr;
+}
+/*Especificidad (0,0,1)*/
+header {
+    grid-area: header;
+}
+/*Especificidad (0,0,1)*/
+nav {
+    grid-area: menu;
+    padding: 1em;
+}
+/*Especificidad (0,0,2)*/
+nav a {
+    display: block;
+    padding: 0.5em;
+    background-color: #F9D2D2;
+    color: #424242;
+}
+/*Especificidad (0,1,2)*/
+nav a:hover{
+    color: #F9D2D2;
+    background-color: #424242;
+}
+/*Especificidad (0,0,1)*/
+footer{
+    grid-area: footer;
+    text-align: right;
+    background-color: #454F5F;
+    color: #E5FFF7;
+    padding: 0.15em;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* Especificidad (0,0,1) */
+h1 {
+    background-color: #0016A3;
+    color: #ECE4E4;
+    text-align: center;
+    padding: 1em;
+}
 
 /*Especificidad (0,0,1)*/
-h1 {
-    background-color: #04388B;
-    color: #fff;
+h2 {
+    background-color: #9096D0;
+    color: #000;
+    text-align: left;
+    padding: 0.5em;
 }
