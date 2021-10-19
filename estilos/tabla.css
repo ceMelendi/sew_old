@@ -1,10 +1,11 @@
+/*Especificidad (0,0,1)*/
 table, th, td {
     border-collapse: collapse;
     border-style: solid;
     border-color: black;
     padding: 1em;
 }
-
+/*Especificidad (0,0,2)*/
 table caption{
     font-size: 1.5em;
     padding-bottom: 0.5em;
